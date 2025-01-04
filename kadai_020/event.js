@@ -6,6 +6,6 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click' , () => {
   //もしクリックされたらテキストを変更
   if (btn.click){
-    text.textContent = 'ボタンをクリックしました'
+    text.textContent = 'ボタンをクリックしました';
   }
 })
